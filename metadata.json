@@ -1,0 +1,6 @@
+{
+  "name": "Jewelry Jam Out",
+  "description": "Mobile puzzle game with tap-out jewelry bead chains and luxury handbag reveal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

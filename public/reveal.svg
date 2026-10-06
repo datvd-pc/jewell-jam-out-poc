@@ -1,0 +1,1357 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="46%" r="65%">
+      <stop offset="0%" stop-color="#5d4090" />
+      <stop offset="50%" stop-color="#442a74" />
+      <stop offset="85%" stop-color="#28154e" />
+      <stop offset="100%" stop-color="#1b0c36" />
+    </radialGradient>
+
+    <!-- Sapphire Leather Base Gradient -->
+    <radialGradient id="sapphireGrad" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#1b4cb8" />
+      <stop offset="40%" stop-color="#123891" />
+      <stop offset="75%" stop-color="#0a2266" />
+      <stop offset="100%" stop-color="#04123d" />
+    </radialGradient>
+
+    <!-- Quilt Cushion Shading -->
+    <radialGradient id="pillowGrad" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#2b62d8" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#123891" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#051748" stop-opacity="0.8" />
+    </radialGradient>
+
+    <!-- Gold Trim Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8db" />
+      <stop offset="25%" stop-color="#eab308" />
+      <stop offset="50%" stop-color="#fef08a" />
+      <stop offset="75%" stop-color="#ca8a04" />
+      <stop offset="100%" stop-color="#854d0e" />
+    </linearGradient>
+
+    <!-- Diamond Gradient -->
+    <radialGradient id="diamondGrad" cx="35%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="30%" stop-color="#e0f2fe" />
+      <stop offset="70%" stop-color="#93c5fd" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </radialGradient>
+
+    <!-- Ruby Gradient -->
+    <radialGradient id="rubyGrad" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#fda4af" />
+      <stop offset="40%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#4c0519" />
+    </radialGradient>
+
+    <!-- Emerald Gradient -->
+    <radialGradient id="emeraldGrad" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="40%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#022c22" />
+    </radialGradient>
+
+    <!-- Center Sapphire Oval Gradient -->
+    <radialGradient id="centerSapphireGrad" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="35%" stop-color="#2563eb" />
+      <stop offset="80%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </radialGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#0a0318" flood-opacity="0.8" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1920" fill="url(#bgGrad)" />
+
+  <!-- MAIN HANDBAG GROUP -->
+  <g filter="url(#shadow)">
+    <!-- 1. HANDLE -->
+    <!-- Handle Outer Gold Arch -->
+    <path d="M 370 700 C 370 470, 710 470, 710 700" fill="none" stroke="url(#goldGrad)" stroke-width="48" stroke-linecap="round" />
+    <path d="M 370 700 C 370 470, 710 470, 710 700" fill="none" stroke="#684107" stroke-width="52" stroke-linecap="round" opacity="0.3" />
+    <path d="M 370 700 C 370 470, 710 470, 710 700" fill="none" stroke="url(#goldGrad)" stroke-width="44" stroke-linecap="round" />
+
+    <!-- Handle Diamonds -->
+    <!-- Sample points along handle arch -->
+    
+        <circle cx="371.1494791838697" cy="675.0400234630755" r="11" fill="url(#goldGrad)" />
+        <circle cx="371.1494791838697" cy="675.0400234630755" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="369.1494791838697" cy="673.0400234630755" r="3.5" fill="#ffffff" />
+      
+        <circle cx="374.5823720014299" cy="650.4175877903754" r="11" fill="url(#goldGrad)" />
+        <circle cx="374.5823720014299" cy="650.4175877903754" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="372.5823720014299" cy="648.4175877903754" r="3.5" fill="#ffffff" />
+      
+        <circle cx="380.2522544663956" cy="626.4656691849812" r="11" fill="url(#goldGrad)" />
+        <circle cx="380.2522544663956" cy="626.4656691849812" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="378.2522544663956" cy="624.4656691849812" r="3.5" fill="#ffffff" />
+      
+        <circle cx="388.08245114501995" cy="603.5081762569006" r="11" fill="url(#goldGrad)" />
+        <circle cx="388.08245114501995" cy="603.5081762569006" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="386.08245114501995" cy="601.5081762569006" r="3.5" fill="#ffffff" />
+      
+        <circle cx="397.96707205980084" cy="581.8555697147767" r="11" fill="url(#goldGrad)" />
+        <circle cx="397.96707205980084" cy="581.8555697147767" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="395.96707205980084" cy="579.8555697147767" r="3.5" fill="#ffffff" />
+      
+        <circle cx="409.7724446697738" cy="561.800663917394" r="11" fill="url(#goldGrad)" />
+        <circle cx="409.7724446697738" cy="561.800663917394" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="407.7724446697738" cy="559.800663917394" r="3.5" fill="#ffffff" />
+      
+        <circle cx="423.3389215623153" cy="543.6146670617945" r="11" fill="url(#goldGrad)" />
+        <circle cx="423.3389215623153" cy="543.6146670617945" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="421.3389215623153" cy="541.6146670617945" r="3.5" fill="#ffffff" />
+      
+        <circle cx="438.4830394105264" cy="527.5435135576656" r="11" fill="url(#goldGrad)" />
+        <circle cx="438.4830394105264" cy="527.5435135576656" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="436.4830394105264" cy="525.5435135576656" r="3.5" fill="#ffffff" />
+      
+        <circle cx="454.99999999999994" cy="513.8045381863457" r="11" fill="url(#goldGrad)" />
+        <circle cx="454.99999999999994" cy="513.8045381863457" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="452.99999999999994" cy="511.80453818634567" r="3.5" fill="#ffffff" />
+      
+        <circle cx="472.6664397733433" cy="502.5835370207411" r="11" fill="url(#goldGrad)" />
+        <circle cx="472.6664397733433" cy="502.5835370207411" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="470.6664397733433" cy="500.5835370207411" r="3.5" fill="#ffffff" />
+      
+        <circle cx="491.24345043911467" cy="494.0322548521699" r="11" fill="url(#goldGrad)" />
+        <circle cx="491.24345043911467" cy="494.0322548521699" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="489.24345043911467" cy="492.0322548521699" r="3.5" fill="#ffffff" />
+      
+        <circle cx="510.47980979662185" cy="488.26633310237526" r="11" fill="url(#goldGrad)" />
+        <circle cx="510.47980979662185" cy="488.26633310237526" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="508.47980979662185" cy="486.26633310237526" r="3.5" fill="#ffffff" />
+      
+        <circle cx="530.1153790852192" cy="485.3637459716773" r="11" fill="url(#goldGrad)" />
+        <circle cx="530.1153790852192" cy="485.3637459716773" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="528.1153790852192" cy="483.3637459716773" r="3.5" fill="#ffffff" />
+      
+        <circle cx="549.884620914781" cy="485.3637459716773" r="11" fill="url(#goldGrad)" />
+        <circle cx="549.884620914781" cy="485.3637459716773" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="547.884620914781" cy="483.3637459716773" r="3.5" fill="#ffffff" />
+      
+        <circle cx="569.5201902033782" cy="488.26633310237526" r="11" fill="url(#goldGrad)" />
+        <circle cx="569.5201902033782" cy="488.26633310237526" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="567.5201902033782" cy="486.26633310237526" r="3.5" fill="#ffffff" />
+      
+        <circle cx="588.7565495608853" cy="494.0322548521699" r="11" fill="url(#goldGrad)" />
+        <circle cx="588.7565495608853" cy="494.0322548521699" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="586.7565495608853" cy="492.0322548521699" r="3.5" fill="#ffffff" />
+      
+        <circle cx="607.3335602266567" cy="502.5835370207411" r="11" fill="url(#goldGrad)" />
+        <circle cx="607.3335602266567" cy="502.5835370207411" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="605.3335602266567" cy="500.5835370207411" r="3.5" fill="#ffffff" />
+      
+        <circle cx="625" cy="513.8045381863457" r="11" fill="url(#goldGrad)" />
+        <circle cx="625" cy="513.8045381863457" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="623" cy="511.80453818634567" r="3.5" fill="#ffffff" />
+      
+        <circle cx="641.5169605894737" cy="527.5435135576656" r="11" fill="url(#goldGrad)" />
+        <circle cx="641.5169605894737" cy="527.5435135576656" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="639.5169605894737" cy="525.5435135576656" r="3.5" fill="#ffffff" />
+      
+        <circle cx="656.6610784376846" cy="543.6146670617945" r="11" fill="url(#goldGrad)" />
+        <circle cx="656.6610784376846" cy="543.6146670617945" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="654.6610784376846" cy="541.6146670617945" r="3.5" fill="#ffffff" />
+      
+        <circle cx="670.2275553302263" cy="561.8006639173941" r="11" fill="url(#goldGrad)" />
+        <circle cx="670.2275553302263" cy="561.8006639173941" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="668.2275553302263" cy="559.8006639173941" r="3.5" fill="#ffffff" />
+      
+        <circle cx="682.0329279401992" cy="581.8555697147767" r="11" fill="url(#goldGrad)" />
+        <circle cx="682.0329279401992" cy="581.8555697147767" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="680.0329279401992" cy="579.8555697147767" r="3.5" fill="#ffffff" />
+      
+        <circle cx="691.91754885498" cy="603.5081762569006" r="11" fill="url(#goldGrad)" />
+        <circle cx="691.91754885498" cy="603.5081762569006" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="689.91754885498" cy="601.5081762569006" r="3.5" fill="#ffffff" />
+      
+        <circle cx="699.7477455336044" cy="626.4656691849812" r="11" fill="url(#goldGrad)" />
+        <circle cx="699.7477455336044" cy="626.4656691849812" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="697.7477455336044" cy="624.4656691849812" r="3.5" fill="#ffffff" />
+      
+        <circle cx="705.4176279985701" cy="650.4175877903754" r="11" fill="url(#goldGrad)" />
+        <circle cx="705.4176279985701" cy="650.4175877903754" r="8.5" fill="url(#diamondGrad)" />
+        <circle cx="703.4176279985701" cy="648.4175877903754" r="3.5" fill="#ffffff" />
+      
+
+    <!-- Handle Gold Brackets -->
+    <rect x="335" y="675" width="55" height="40" rx="8" fill="url(#goldGrad)" stroke="#583506" stroke-width="3" />
+    <rect x="690" y="675" width="55" height="40" rx="8" fill="url(#goldGrad)" stroke="#583506" stroke-width="3" />
+
+    <!-- 2. HANDBAG BODY -->
+    <g id="bagBody">
+      <!-- Outer Body Path -->
+      <path id="bodyShape" d="
+        M 230 705
+        L 850 705
+        Q 865 705, 875 725
+        L 965 1315
+        Q 975 1380, 915 1395
+        L 165 1395
+        Q 105 1380, 115 1315
+        L 205 725
+        Q 215 705, 230 705
+        Z
+      " fill="url(#sapphireGrad)" stroke="url(#goldGrad)" stroke-width="32" stroke-linejoin="round" />
+
+      <!-- Quilt Lattice Clip -->
+      <clipPath id="bodyClip">
+        <path d="
+          M 230 705
+          L 850 705
+          Q 865 705, 875 725
+          L 965 1315
+          Q 975 1380, 915 1395
+          L 165 1395
+          Q 105 1380, 115 1315
+          L 205 725
+          Q 215 705, 230 705
+          Z
+        " />
+      </clipPath>
+
+      <g clip-path="url(#bodyClip)">
+        <!-- Quilted diagonal stitches / puffy squares -->
+        
+            <line x1="-600" y1="650" x2="400" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="400" y1="650" x2="-600" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="-485" y1="650" x2="515" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="515" y1="650" x2="-485" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="-370" y1="650" x2="630" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="630" y1="650" x2="-370" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="-255" y1="650" x2="745" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="745" y1="650" x2="-255" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="-140" y1="650" x2="860" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="860" y1="650" x2="-140" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="-25" y1="650" x2="975" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="975" y1="650" x2="-25" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="90" y1="650" x2="1090" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="1090" y1="650" x2="90" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="205" y1="650" x2="1205" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="1205" y1="650" x2="205" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="320" y1="650" x2="1320" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="1320" y1="650" x2="320" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="435" y1="650" x2="1435" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="1435" y1="650" x2="435" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="550" y1="650" x2="1550" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="1550" y1="650" x2="550" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="665" y1="650" x2="1665" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="1665" y1="650" x2="665" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="780" y1="650" x2="1780" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="1780" y1="650" x2="780" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="895" y1="650" x2="1895" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="1895" y1="650" x2="895" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="1010" y1="650" x2="2010" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="2010" y1="650" x2="1010" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="1125" y1="650" x2="2125" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="2125" y1="650" x2="1125" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="1240" y1="650" x2="2240" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="2240" y1="650" x2="1240" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+            <line x1="1355" y1="650" x2="2355" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+            <line x1="2355" y1="650" x2="1355" y2="1450" stroke="#ffd700" stroke-width="4.5" opacity="0.85" />
+          
+
+        <!-- Puffy pillow radial highlights between lattice -->
+        <circle cx="65" cy="740" r="38" fill="url(#pillowGrad)" /><circle cx="180" cy="740" r="38" fill="url(#pillowGrad)" /><circle cx="295" cy="740" r="38" fill="url(#pillowGrad)" /><circle cx="410" cy="740" r="38" fill="url(#pillowGrad)" /><circle cx="525" cy="740" r="38" fill="url(#pillowGrad)" /><circle cx="640" cy="740" r="38" fill="url(#pillowGrad)" /><circle cx="755" cy="740" r="38" fill="url(#pillowGrad)" /><circle cx="870" cy="740" r="38" fill="url(#pillowGrad)" /><circle cx="985" cy="740" r="38" fill="url(#pillowGrad)" /><circle cx="1100" cy="740" r="38" fill="url(#pillowGrad)" /><circle cx="122.5" cy="822" r="38" fill="url(#pillowGrad)" /><circle cx="237.5" cy="822" r="38" fill="url(#pillowGrad)" /><circle cx="352.5" cy="822" r="38" fill="url(#pillowGrad)" /><circle cx="467.5" cy="822" r="38" fill="url(#pillowGrad)" /><circle cx="582.5" cy="822" r="38" fill="url(#pillowGrad)" /><circle cx="697.5" cy="822" r="38" fill="url(#pillowGrad)" /><circle cx="812.5" cy="822" r="38" fill="url(#pillowGrad)" /><circle cx="927.5" cy="822" r="38" fill="url(#pillowGrad)" /><circle cx="1042.5" cy="822" r="38" fill="url(#pillowGrad)" /><circle cx="1157.5" cy="822" r="38" fill="url(#pillowGrad)" /><circle cx="65" cy="904" r="38" fill="url(#pillowGrad)" /><circle cx="180" cy="904" r="38" fill="url(#pillowGrad)" /><circle cx="295" cy="904" r="38" fill="url(#pillowGrad)" /><circle cx="410" cy="904" r="38" fill="url(#pillowGrad)" /><circle cx="525" cy="904" r="38" fill="url(#pillowGrad)" /><circle cx="640" cy="904" r="38" fill="url(#pillowGrad)" /><circle cx="755" cy="904" r="38" fill="url(#pillowGrad)" /><circle cx="870" cy="904" r="38" fill="url(#pillowGrad)" /><circle cx="985" cy="904" r="38" fill="url(#pillowGrad)" /><circle cx="1100" cy="904" r="38" fill="url(#pillowGrad)" /><circle cx="122.5" cy="986" r="38" fill="url(#pillowGrad)" /><circle cx="237.5" cy="986" r="38" fill="url(#pillowGrad)" /><circle cx="352.5" cy="986" r="38" fill="url(#pillowGrad)" /><circle cx="467.5" cy="986" r="38" fill="url(#pillowGrad)" /><circle cx="582.5" cy="986" r="38" fill="url(#pillowGrad)" /><circle cx="697.5" cy="986" r="38" fill="url(#pillowGrad)" /><circle cx="812.5" cy="986" r="38" fill="url(#pillowGrad)" /><circle cx="927.5" cy="986" r="38" fill="url(#pillowGrad)" /><circle cx="1042.5" cy="986" r="38" fill="url(#pillowGrad)" /><circle cx="1157.5" cy="986" r="38" fill="url(#pillowGrad)" /><circle cx="65" cy="1068" r="38" fill="url(#pillowGrad)" /><circle cx="180" cy="1068" r="38" fill="url(#pillowGrad)" /><circle cx="295" cy="1068" r="38" fill="url(#pillowGrad)" /><circle cx="410" cy="1068" r="38" fill="url(#pillowGrad)" /><circle cx="525" cy="1068" r="38" fill="url(#pillowGrad)" /><circle cx="640" cy="1068" r="38" fill="url(#pillowGrad)" /><circle cx="755" cy="1068" r="38" fill="url(#pillowGrad)" /><circle cx="870" cy="1068" r="38" fill="url(#pillowGrad)" /><circle cx="985" cy="1068" r="38" fill="url(#pillowGrad)" /><circle cx="1100" cy="1068" r="38" fill="url(#pillowGrad)" /><circle cx="122.5" cy="1150" r="38" fill="url(#pillowGrad)" /><circle cx="237.5" cy="1150" r="38" fill="url(#pillowGrad)" /><circle cx="352.5" cy="1150" r="38" fill="url(#pillowGrad)" /><circle cx="467.5" cy="1150" r="38" fill="url(#pillowGrad)" /><circle cx="582.5" cy="1150" r="38" fill="url(#pillowGrad)" /><circle cx="697.5" cy="1150" r="38" fill="url(#pillowGrad)" /><circle cx="812.5" cy="1150" r="38" fill="url(#pillowGrad)" /><circle cx="927.5" cy="1150" r="38" fill="url(#pillowGrad)" /><circle cx="1042.5" cy="1150" r="38" fill="url(#pillowGrad)" /><circle cx="1157.5" cy="1150" r="38" fill="url(#pillowGrad)" /><circle cx="65" cy="1232" r="38" fill="url(#pillowGrad)" /><circle cx="180" cy="1232" r="38" fill="url(#pillowGrad)" /><circle cx="295" cy="1232" r="38" fill="url(#pillowGrad)" /><circle cx="410" cy="1232" r="38" fill="url(#pillowGrad)" /><circle cx="525" cy="1232" r="38" fill="url(#pillowGrad)" /><circle cx="640" cy="1232" r="38" fill="url(#pillowGrad)" /><circle cx="755" cy="1232" r="38" fill="url(#pillowGrad)" /><circle cx="870" cy="1232" r="38" fill="url(#pillowGrad)" /><circle cx="985" cy="1232" r="38" fill="url(#pillowGrad)" /><circle cx="1100" cy="1232" r="38" fill="url(#pillowGrad)" /><circle cx="122.5" cy="1314" r="38" fill="url(#pillowGrad)" /><circle cx="237.5" cy="1314" r="38" fill="url(#pillowGrad)" /><circle cx="352.5" cy="1314" r="38" fill="url(#pillowGrad)" /><circle cx="467.5" cy="1314" r="38" fill="url(#pillowGrad)" /><circle cx="582.5" cy="1314" r="38" fill="url(#pillowGrad)" /><circle cx="697.5" cy="1314" r="38" fill="url(#pillowGrad)" /><circle cx="812.5" cy="1314" r="38" fill="url(#pillowGrad)" /><circle cx="927.5" cy="1314" r="38" fill="url(#pillowGrad)" /><circle cx="1042.5" cy="1314" r="38" fill="url(#pillowGrad)" /><circle cx="1157.5" cy="1314" r="38" fill="url(#pillowGrad)" />
+
+        <!-- Gold Studs with Diamonds at Quilt Intersections -->
+        
+                <circle cx="122.5" cy="700" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="122.5" cy="700" r="7" fill="url(#diamondGrad)" />
+                <circle cx="120.5" cy="698" r="2.5" fill="#ffffff" />
+              
+                <circle cx="237.5" cy="700" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="237.5" cy="700" r="7" fill="url(#diamondGrad)" />
+                <circle cx="235.5" cy="698" r="2.5" fill="#ffffff" />
+              
+                <circle cx="352.5" cy="700" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="352.5" cy="700" r="7" fill="url(#diamondGrad)" />
+                <circle cx="350.5" cy="698" r="2.5" fill="#ffffff" />
+              
+                <circle cx="467.5" cy="700" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="467.5" cy="700" r="7" fill="url(#diamondGrad)" />
+                <circle cx="465.5" cy="698" r="2.5" fill="#ffffff" />
+              
+                <circle cx="582.5" cy="700" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="582.5" cy="700" r="7" fill="url(#diamondGrad)" />
+                <circle cx="580.5" cy="698" r="2.5" fill="#ffffff" />
+              
+                <circle cx="697.5" cy="700" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="697.5" cy="700" r="7" fill="url(#diamondGrad)" />
+                <circle cx="695.5" cy="698" r="2.5" fill="#ffffff" />
+              
+                <circle cx="812.5" cy="700" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="812.5" cy="700" r="7" fill="url(#diamondGrad)" />
+                <circle cx="810.5" cy="698" r="2.5" fill="#ffffff" />
+              
+                <circle cx="927.5" cy="700" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="927.5" cy="700" r="7" fill="url(#diamondGrad)" />
+                <circle cx="925.5" cy="698" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1042.5" cy="700" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1042.5" cy="700" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1040.5" cy="698" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1157.5" cy="700" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1157.5" cy="700" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1155.5" cy="698" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1272.5" cy="700" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1272.5" cy="700" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1270.5" cy="698" r="2.5" fill="#ffffff" />
+              
+                <circle cx="65" cy="782" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="65" cy="782" r="7" fill="url(#diamondGrad)" />
+                <circle cx="63" cy="780" r="2.5" fill="#ffffff" />
+              
+                <circle cx="180" cy="782" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="180" cy="782" r="7" fill="url(#diamondGrad)" />
+                <circle cx="178" cy="780" r="2.5" fill="#ffffff" />
+              
+                <circle cx="295" cy="782" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="295" cy="782" r="7" fill="url(#diamondGrad)" />
+                <circle cx="293" cy="780" r="2.5" fill="#ffffff" />
+              
+                <circle cx="410" cy="782" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="410" cy="782" r="7" fill="url(#diamondGrad)" />
+                <circle cx="408" cy="780" r="2.5" fill="#ffffff" />
+              
+                <circle cx="525" cy="782" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="525" cy="782" r="7" fill="url(#diamondGrad)" />
+                <circle cx="523" cy="780" r="2.5" fill="#ffffff" />
+              
+                <circle cx="640" cy="782" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="640" cy="782" r="7" fill="url(#diamondGrad)" />
+                <circle cx="638" cy="780" r="2.5" fill="#ffffff" />
+              
+                <circle cx="755" cy="782" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="755" cy="782" r="7" fill="url(#diamondGrad)" />
+                <circle cx="753" cy="780" r="2.5" fill="#ffffff" />
+              
+                <circle cx="870" cy="782" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="870" cy="782" r="7" fill="url(#diamondGrad)" />
+                <circle cx="868" cy="780" r="2.5" fill="#ffffff" />
+              
+                <circle cx="985" cy="782" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="985" cy="782" r="7" fill="url(#diamondGrad)" />
+                <circle cx="983" cy="780" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1100" cy="782" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1100" cy="782" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1098" cy="780" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1215" cy="782" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1215" cy="782" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1213" cy="780" r="2.5" fill="#ffffff" />
+              
+                <circle cx="122.5" cy="864" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="122.5" cy="864" r="7" fill="url(#diamondGrad)" />
+                <circle cx="120.5" cy="862" r="2.5" fill="#ffffff" />
+              
+                <circle cx="237.5" cy="864" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="237.5" cy="864" r="7" fill="url(#diamondGrad)" />
+                <circle cx="235.5" cy="862" r="2.5" fill="#ffffff" />
+              
+                <circle cx="352.5" cy="864" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="352.5" cy="864" r="7" fill="url(#diamondGrad)" />
+                <circle cx="350.5" cy="862" r="2.5" fill="#ffffff" />
+              
+                <circle cx="467.5" cy="864" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="467.5" cy="864" r="7" fill="url(#diamondGrad)" />
+                <circle cx="465.5" cy="862" r="2.5" fill="#ffffff" />
+              
+                <circle cx="582.5" cy="864" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="582.5" cy="864" r="7" fill="url(#diamondGrad)" />
+                <circle cx="580.5" cy="862" r="2.5" fill="#ffffff" />
+              
+                <circle cx="697.5" cy="864" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="697.5" cy="864" r="7" fill="url(#diamondGrad)" />
+                <circle cx="695.5" cy="862" r="2.5" fill="#ffffff" />
+              
+                <circle cx="812.5" cy="864" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="812.5" cy="864" r="7" fill="url(#diamondGrad)" />
+                <circle cx="810.5" cy="862" r="2.5" fill="#ffffff" />
+              
+                <circle cx="927.5" cy="864" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="927.5" cy="864" r="7" fill="url(#diamondGrad)" />
+                <circle cx="925.5" cy="862" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1042.5" cy="864" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1042.5" cy="864" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1040.5" cy="862" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1157.5" cy="864" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1157.5" cy="864" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1155.5" cy="862" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1272.5" cy="864" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1272.5" cy="864" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1270.5" cy="862" r="2.5" fill="#ffffff" />
+              
+                <circle cx="65" cy="946" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="65" cy="946" r="7" fill="url(#diamondGrad)" />
+                <circle cx="63" cy="944" r="2.5" fill="#ffffff" />
+              
+                <circle cx="180" cy="946" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="180" cy="946" r="7" fill="url(#diamondGrad)" />
+                <circle cx="178" cy="944" r="2.5" fill="#ffffff" />
+              
+                <circle cx="295" cy="946" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="295" cy="946" r="7" fill="url(#diamondGrad)" />
+                <circle cx="293" cy="944" r="2.5" fill="#ffffff" />
+              
+                <circle cx="410" cy="946" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="410" cy="946" r="7" fill="url(#diamondGrad)" />
+                <circle cx="408" cy="944" r="2.5" fill="#ffffff" />
+              
+                <circle cx="525" cy="946" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="525" cy="946" r="7" fill="url(#diamondGrad)" />
+                <circle cx="523" cy="944" r="2.5" fill="#ffffff" />
+              
+                <circle cx="640" cy="946" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="640" cy="946" r="7" fill="url(#diamondGrad)" />
+                <circle cx="638" cy="944" r="2.5" fill="#ffffff" />
+              
+                <circle cx="755" cy="946" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="755" cy="946" r="7" fill="url(#diamondGrad)" />
+                <circle cx="753" cy="944" r="2.5" fill="#ffffff" />
+              
+                <circle cx="870" cy="946" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="870" cy="946" r="7" fill="url(#diamondGrad)" />
+                <circle cx="868" cy="944" r="2.5" fill="#ffffff" />
+              
+                <circle cx="985" cy="946" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="985" cy="946" r="7" fill="url(#diamondGrad)" />
+                <circle cx="983" cy="944" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1100" cy="946" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1100" cy="946" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1098" cy="944" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1215" cy="946" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1215" cy="946" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1213" cy="944" r="2.5" fill="#ffffff" />
+              
+                <circle cx="122.5" cy="1028" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="122.5" cy="1028" r="7" fill="url(#diamondGrad)" />
+                <circle cx="120.5" cy="1026" r="2.5" fill="#ffffff" />
+              
+                <circle cx="237.5" cy="1028" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="237.5" cy="1028" r="7" fill="url(#diamondGrad)" />
+                <circle cx="235.5" cy="1026" r="2.5" fill="#ffffff" />
+              
+                <circle cx="352.5" cy="1028" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="352.5" cy="1028" r="7" fill="url(#diamondGrad)" />
+                <circle cx="350.5" cy="1026" r="2.5" fill="#ffffff" />
+              
+                <circle cx="467.5" cy="1028" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="467.5" cy="1028" r="7" fill="url(#diamondGrad)" />
+                <circle cx="465.5" cy="1026" r="2.5" fill="#ffffff" />
+              
+                <circle cx="582.5" cy="1028" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="582.5" cy="1028" r="7" fill="url(#diamondGrad)" />
+                <circle cx="580.5" cy="1026" r="2.5" fill="#ffffff" />
+              
+                <circle cx="697.5" cy="1028" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="697.5" cy="1028" r="7" fill="url(#diamondGrad)" />
+                <circle cx="695.5" cy="1026" r="2.5" fill="#ffffff" />
+              
+                <circle cx="812.5" cy="1028" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="812.5" cy="1028" r="7" fill="url(#diamondGrad)" />
+                <circle cx="810.5" cy="1026" r="2.5" fill="#ffffff" />
+              
+                <circle cx="927.5" cy="1028" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="927.5" cy="1028" r="7" fill="url(#diamondGrad)" />
+                <circle cx="925.5" cy="1026" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1042.5" cy="1028" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1042.5" cy="1028" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1040.5" cy="1026" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1157.5" cy="1028" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1157.5" cy="1028" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1155.5" cy="1026" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1272.5" cy="1028" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1272.5" cy="1028" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1270.5" cy="1026" r="2.5" fill="#ffffff" />
+              
+                <circle cx="65" cy="1110" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="65" cy="1110" r="7" fill="url(#diamondGrad)" />
+                <circle cx="63" cy="1108" r="2.5" fill="#ffffff" />
+              
+                <circle cx="180" cy="1110" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="180" cy="1110" r="7" fill="url(#diamondGrad)" />
+                <circle cx="178" cy="1108" r="2.5" fill="#ffffff" />
+              
+                <circle cx="295" cy="1110" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="295" cy="1110" r="7" fill="url(#diamondGrad)" />
+                <circle cx="293" cy="1108" r="2.5" fill="#ffffff" />
+              
+                <circle cx="410" cy="1110" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="410" cy="1110" r="7" fill="url(#diamondGrad)" />
+                <circle cx="408" cy="1108" r="2.5" fill="#ffffff" />
+              
+                <circle cx="525" cy="1110" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="525" cy="1110" r="7" fill="url(#diamondGrad)" />
+                <circle cx="523" cy="1108" r="2.5" fill="#ffffff" />
+              
+                <circle cx="640" cy="1110" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="640" cy="1110" r="7" fill="url(#diamondGrad)" />
+                <circle cx="638" cy="1108" r="2.5" fill="#ffffff" />
+              
+                <circle cx="755" cy="1110" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="755" cy="1110" r="7" fill="url(#diamondGrad)" />
+                <circle cx="753" cy="1108" r="2.5" fill="#ffffff" />
+              
+                <circle cx="870" cy="1110" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="870" cy="1110" r="7" fill="url(#diamondGrad)" />
+                <circle cx="868" cy="1108" r="2.5" fill="#ffffff" />
+              
+                <circle cx="985" cy="1110" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="985" cy="1110" r="7" fill="url(#diamondGrad)" />
+                <circle cx="983" cy="1108" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1100" cy="1110" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1100" cy="1110" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1098" cy="1108" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1215" cy="1110" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1215" cy="1110" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1213" cy="1108" r="2.5" fill="#ffffff" />
+              
+                <circle cx="122.5" cy="1192" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="122.5" cy="1192" r="7" fill="url(#diamondGrad)" />
+                <circle cx="120.5" cy="1190" r="2.5" fill="#ffffff" />
+              
+                <circle cx="237.5" cy="1192" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="237.5" cy="1192" r="7" fill="url(#diamondGrad)" />
+                <circle cx="235.5" cy="1190" r="2.5" fill="#ffffff" />
+              
+                <circle cx="352.5" cy="1192" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="352.5" cy="1192" r="7" fill="url(#diamondGrad)" />
+                <circle cx="350.5" cy="1190" r="2.5" fill="#ffffff" />
+              
+                <circle cx="467.5" cy="1192" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="467.5" cy="1192" r="7" fill="url(#diamondGrad)" />
+                <circle cx="465.5" cy="1190" r="2.5" fill="#ffffff" />
+              
+                <circle cx="582.5" cy="1192" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="582.5" cy="1192" r="7" fill="url(#diamondGrad)" />
+                <circle cx="580.5" cy="1190" r="2.5" fill="#ffffff" />
+              
+                <circle cx="697.5" cy="1192" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="697.5" cy="1192" r="7" fill="url(#diamondGrad)" />
+                <circle cx="695.5" cy="1190" r="2.5" fill="#ffffff" />
+              
+                <circle cx="812.5" cy="1192" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="812.5" cy="1192" r="7" fill="url(#diamondGrad)" />
+                <circle cx="810.5" cy="1190" r="2.5" fill="#ffffff" />
+              
+                <circle cx="927.5" cy="1192" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="927.5" cy="1192" r="7" fill="url(#diamondGrad)" />
+                <circle cx="925.5" cy="1190" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1042.5" cy="1192" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1042.5" cy="1192" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1040.5" cy="1190" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1157.5" cy="1192" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1157.5" cy="1192" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1155.5" cy="1190" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1272.5" cy="1192" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1272.5" cy="1192" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1270.5" cy="1190" r="2.5" fill="#ffffff" />
+              
+                <circle cx="65" cy="1274" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="65" cy="1274" r="7" fill="url(#diamondGrad)" />
+                <circle cx="63" cy="1272" r="2.5" fill="#ffffff" />
+              
+                <circle cx="180" cy="1274" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="180" cy="1274" r="7" fill="url(#diamondGrad)" />
+                <circle cx="178" cy="1272" r="2.5" fill="#ffffff" />
+              
+                <circle cx="295" cy="1274" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="295" cy="1274" r="7" fill="url(#diamondGrad)" />
+                <circle cx="293" cy="1272" r="2.5" fill="#ffffff" />
+              
+                <circle cx="410" cy="1274" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="410" cy="1274" r="7" fill="url(#diamondGrad)" />
+                <circle cx="408" cy="1272" r="2.5" fill="#ffffff" />
+              
+                <circle cx="525" cy="1274" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="525" cy="1274" r="7" fill="url(#diamondGrad)" />
+                <circle cx="523" cy="1272" r="2.5" fill="#ffffff" />
+              
+                <circle cx="640" cy="1274" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="640" cy="1274" r="7" fill="url(#diamondGrad)" />
+                <circle cx="638" cy="1272" r="2.5" fill="#ffffff" />
+              
+                <circle cx="755" cy="1274" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="755" cy="1274" r="7" fill="url(#diamondGrad)" />
+                <circle cx="753" cy="1272" r="2.5" fill="#ffffff" />
+              
+                <circle cx="870" cy="1274" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="870" cy="1274" r="7" fill="url(#diamondGrad)" />
+                <circle cx="868" cy="1272" r="2.5" fill="#ffffff" />
+              
+                <circle cx="985" cy="1274" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="985" cy="1274" r="7" fill="url(#diamondGrad)" />
+                <circle cx="983" cy="1272" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1100" cy="1274" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1100" cy="1274" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1098" cy="1272" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1215" cy="1274" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1215" cy="1274" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1213" cy="1272" r="2.5" fill="#ffffff" />
+              
+                <circle cx="122.5" cy="1356" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="122.5" cy="1356" r="7" fill="url(#diamondGrad)" />
+                <circle cx="120.5" cy="1354" r="2.5" fill="#ffffff" />
+              
+                <circle cx="237.5" cy="1356" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="237.5" cy="1356" r="7" fill="url(#diamondGrad)" />
+                <circle cx="235.5" cy="1354" r="2.5" fill="#ffffff" />
+              
+                <circle cx="352.5" cy="1356" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="352.5" cy="1356" r="7" fill="url(#diamondGrad)" />
+                <circle cx="350.5" cy="1354" r="2.5" fill="#ffffff" />
+              
+                <circle cx="467.5" cy="1356" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="467.5" cy="1356" r="7" fill="url(#diamondGrad)" />
+                <circle cx="465.5" cy="1354" r="2.5" fill="#ffffff" />
+              
+                <circle cx="582.5" cy="1356" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="582.5" cy="1356" r="7" fill="url(#diamondGrad)" />
+                <circle cx="580.5" cy="1354" r="2.5" fill="#ffffff" />
+              
+                <circle cx="697.5" cy="1356" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="697.5" cy="1356" r="7" fill="url(#diamondGrad)" />
+                <circle cx="695.5" cy="1354" r="2.5" fill="#ffffff" />
+              
+                <circle cx="812.5" cy="1356" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="812.5" cy="1356" r="7" fill="url(#diamondGrad)" />
+                <circle cx="810.5" cy="1354" r="2.5" fill="#ffffff" />
+              
+                <circle cx="927.5" cy="1356" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="927.5" cy="1356" r="7" fill="url(#diamondGrad)" />
+                <circle cx="925.5" cy="1354" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1042.5" cy="1356" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1042.5" cy="1356" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1040.5" cy="1354" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1157.5" cy="1356" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1157.5" cy="1356" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1155.5" cy="1354" r="2.5" fill="#ffffff" />
+              
+                <circle cx="1272.5" cy="1356" r="12" fill="url(#goldGrad)" stroke="#684107" stroke-width="1.5" />
+                <circle cx="1272.5" cy="1356" r="7" fill="url(#diamondGrad)" />
+                <circle cx="1270.5" cy="1354" r="2.5" fill="#ffffff" />
+              
+      </g>
+
+      <!-- Outer Diamond Border along Bag Perimeter -->
+      <!-- Bottom row diamonds -->
+      
+          <circle cx="160" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="160" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="158" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="184.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="184.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="182.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="209" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="209" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="207" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="233.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="233.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="231.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="258" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="258" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="256" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="282.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="282.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="280.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="307" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="307" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="305" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="331.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="331.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="329.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="356" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="356" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="354" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="380.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="380.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="378.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="405" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="405" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="403" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="429.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="429.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="427.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="454" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="454" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="452" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="478.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="478.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="476.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="503" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="503" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="501" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="527.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="527.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="525.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="552" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="552" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="550" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="576.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="576.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="574.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="601" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="601" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="599" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="625.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="625.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="623.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="650" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="650" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="648" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="674.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="674.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="672.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="699" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="699" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="697" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="723.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="723.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="721.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="748" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="748" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="746" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="772.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="772.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="770.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="797" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="797" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="795" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="821.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="821.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="819.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="846" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="846" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="844" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="870.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="870.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="868.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="895" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="895" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="893" cy="1388" r="2.5" fill="#ffffff" />
+        
+          <circle cx="919.5" cy="1390" r="10" fill="url(#goldGrad)" />
+          <circle cx="919.5" cy="1390" r="7.5" fill="url(#diamondGrad)" />
+          <circle cx="917.5" cy="1388" r="2.5" fill="#ffffff" />
+        
+
+      <!-- Left edge diamonds -->
+      
+          <circle cx="201.4" cy="748.6" r="10" fill="url(#goldGrad)" />
+          <circle cx="201.4" cy="748.6" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="197.8" cy="772.2" r="10" fill="url(#goldGrad)" />
+          <circle cx="197.8" cy="772.2" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="194.2" cy="795.8" r="10" fill="url(#goldGrad)" />
+          <circle cx="194.2" cy="795.8" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="190.6" cy="819.4" r="10" fill="url(#goldGrad)" />
+          <circle cx="190.6" cy="819.4" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="187" cy="843" r="10" fill="url(#goldGrad)" />
+          <circle cx="187" cy="843" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="183.4" cy="866.6" r="10" fill="url(#goldGrad)" />
+          <circle cx="183.4" cy="866.6" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="179.8" cy="890.2" r="10" fill="url(#goldGrad)" />
+          <circle cx="179.8" cy="890.2" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="176.2" cy="913.8" r="10" fill="url(#goldGrad)" />
+          <circle cx="176.2" cy="913.8" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="172.6" cy="937.4" r="10" fill="url(#goldGrad)" />
+          <circle cx="172.6" cy="937.4" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="169" cy="961" r="10" fill="url(#goldGrad)" />
+          <circle cx="169" cy="961" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="165.4" cy="984.6" r="10" fill="url(#goldGrad)" />
+          <circle cx="165.4" cy="984.6" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="161.8" cy="1008.2" r="10" fill="url(#goldGrad)" />
+          <circle cx="161.8" cy="1008.2" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="158.2" cy="1031.8" r="10" fill="url(#goldGrad)" />
+          <circle cx="158.2" cy="1031.8" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="154.6" cy="1055.4" r="10" fill="url(#goldGrad)" />
+          <circle cx="154.6" cy="1055.4" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="151" cy="1079" r="10" fill="url(#goldGrad)" />
+          <circle cx="151" cy="1079" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="147.4" cy="1102.6" r="10" fill="url(#goldGrad)" />
+          <circle cx="147.4" cy="1102.6" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="143.8" cy="1126.2" r="10" fill="url(#goldGrad)" />
+          <circle cx="143.8" cy="1126.2" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="140.2" cy="1149.8" r="10" fill="url(#goldGrad)" />
+          <circle cx="140.2" cy="1149.8" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="136.6" cy="1173.4" r="10" fill="url(#goldGrad)" />
+          <circle cx="136.6" cy="1173.4" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="133" cy="1197" r="10" fill="url(#goldGrad)" />
+          <circle cx="133" cy="1197" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="129.4" cy="1220.6" r="10" fill="url(#goldGrad)" />
+          <circle cx="129.4" cy="1220.6" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="125.8" cy="1244.2" r="10" fill="url(#goldGrad)" />
+          <circle cx="125.8" cy="1244.2" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="122.2" cy="1267.8000000000002" r="10" fill="url(#goldGrad)" />
+          <circle cx="122.2" cy="1267.8000000000002" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="118.60000000000001" cy="1291.4" r="10" fill="url(#goldGrad)" />
+          <circle cx="118.60000000000001" cy="1291.4" r="7.5" fill="url(#diamondGrad)" />
+        
+
+      <!-- Right edge diamonds -->
+      
+          <circle cx="878.6" cy="748.6" r="10" fill="url(#goldGrad)" />
+          <circle cx="878.6" cy="748.6" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="882.2" cy="772.2" r="10" fill="url(#goldGrad)" />
+          <circle cx="882.2" cy="772.2" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="885.8" cy="795.8" r="10" fill="url(#goldGrad)" />
+          <circle cx="885.8" cy="795.8" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="889.4" cy="819.4" r="10" fill="url(#goldGrad)" />
+          <circle cx="889.4" cy="819.4" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="893" cy="843" r="10" fill="url(#goldGrad)" />
+          <circle cx="893" cy="843" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="896.6" cy="866.6" r="10" fill="url(#goldGrad)" />
+          <circle cx="896.6" cy="866.6" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="900.2" cy="890.2" r="10" fill="url(#goldGrad)" />
+          <circle cx="900.2" cy="890.2" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="903.8" cy="913.8" r="10" fill="url(#goldGrad)" />
+          <circle cx="903.8" cy="913.8" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="907.4" cy="937.4" r="10" fill="url(#goldGrad)" />
+          <circle cx="907.4" cy="937.4" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="911" cy="961" r="10" fill="url(#goldGrad)" />
+          <circle cx="911" cy="961" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="914.6" cy="984.6" r="10" fill="url(#goldGrad)" />
+          <circle cx="914.6" cy="984.6" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="918.2" cy="1008.2" r="10" fill="url(#goldGrad)" />
+          <circle cx="918.2" cy="1008.2" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="921.8" cy="1031.8" r="10" fill="url(#goldGrad)" />
+          <circle cx="921.8" cy="1031.8" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="925.4" cy="1055.4" r="10" fill="url(#goldGrad)" />
+          <circle cx="925.4" cy="1055.4" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="929" cy="1079" r="10" fill="url(#goldGrad)" />
+          <circle cx="929" cy="1079" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="932.6" cy="1102.6" r="10" fill="url(#goldGrad)" />
+          <circle cx="932.6" cy="1102.6" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="936.2" cy="1126.2" r="10" fill="url(#goldGrad)" />
+          <circle cx="936.2" cy="1126.2" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="939.8" cy="1149.8" r="10" fill="url(#goldGrad)" />
+          <circle cx="939.8" cy="1149.8" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="943.4" cy="1173.4" r="10" fill="url(#goldGrad)" />
+          <circle cx="943.4" cy="1173.4" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="947" cy="1197" r="10" fill="url(#goldGrad)" />
+          <circle cx="947" cy="1197" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="950.6" cy="1220.6" r="10" fill="url(#goldGrad)" />
+          <circle cx="950.6" cy="1220.6" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="954.2" cy="1244.2" r="10" fill="url(#goldGrad)" />
+          <circle cx="954.2" cy="1244.2" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="957.8" cy="1267.8000000000002" r="10" fill="url(#goldGrad)" />
+          <circle cx="957.8" cy="1267.8000000000002" r="7.5" fill="url(#diamondGrad)" />
+        
+          <circle cx="961.4" cy="1291.4" r="10" fill="url(#goldGrad)" />
+          <circle cx="961.4" cy="1291.4" r="7.5" fill="url(#diamondGrad)" />
+        
+    </g>
+
+    <!-- 3. TOP FLAP -->
+    <g id="bagFlap">
+      <path d="
+        M 180 710
+        L 900 710
+        Q 915 710, 915 730
+        L 905 915
+        Q 900 935, 875 935
+        L 205 935
+        Q 180 935, 175 915
+        L 165 730
+        Q 165 710, 180 710
+        Z
+      " fill="url(#sapphireGrad)" stroke="url(#goldGrad)" stroke-width="26" />
+
+      <!-- Flap Quilt pattern -->
+      <g clip-path="url(#flapClip)">
+        <clipPath id="flapClip">
+          <path d="
+            M 180 710
+            L 900 710
+            Q 915 710, 915 730
+            L 905 915
+            Q 900 935, 875 935
+            L 205 935
+            Q 180 935, 175 915
+            L 165 730
+            Q 165 710, 180 710
+            Z
+          " />
+        </clipPath>
+        
+            <line x1="-200" y1="680" x2="200" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+            <line x1="200" y1="680" x2="-200" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+          
+            <line x1="-85" y1="680" x2="315" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+            <line x1="315" y1="680" x2="-85" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+          
+            <line x1="30" y1="680" x2="430" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+            <line x1="430" y1="680" x2="30" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+          
+            <line x1="145" y1="680" x2="545" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+            <line x1="545" y1="680" x2="145" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+          
+            <line x1="260" y1="680" x2="660" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+            <line x1="660" y1="680" x2="260" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+          
+            <line x1="375" y1="680" x2="775" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+            <line x1="775" y1="680" x2="375" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+          
+            <line x1="490" y1="680" x2="890" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+            <line x1="890" y1="680" x2="490" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+          
+            <line x1="605" y1="680" x2="1005" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+            <line x1="1005" y1="680" x2="605" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+          
+            <line x1="720" y1="680" x2="1120" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+            <line x1="1120" y1="680" x2="720" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+          
+            <line x1="835" y1="680" x2="1235" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+            <line x1="1235" y1="680" x2="835" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+          
+            <line x1="950" y1="680" x2="1350" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+            <line x1="1350" y1="680" x2="950" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+          
+            <line x1="1065" y1="680" x2="1465" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+            <line x1="1465" y1="680" x2="1065" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+          
+            <line x1="1180" y1="680" x2="1580" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+            <line x1="1580" y1="680" x2="1180" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+          
+            <line x1="1295" y1="680" x2="1695" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+            <line x1="1695" y1="680" x2="1295" y2="980" stroke="#ffd700" stroke-width="4.5" opacity="0.8" />
+          
+        <!-- Flap studs -->
+        
+                <circle cx="220" cy="750" r="11" fill="url(#goldGrad)" />
+                <circle cx="220" cy="750" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="335" cy="750" r="11" fill="url(#goldGrad)" />
+                <circle cx="335" cy="750" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="450" cy="750" r="11" fill="url(#goldGrad)" />
+                <circle cx="450" cy="750" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="565" cy="750" r="11" fill="url(#goldGrad)" />
+                <circle cx="565" cy="750" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="680" cy="750" r="11" fill="url(#goldGrad)" />
+                <circle cx="680" cy="750" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="795" cy="750" r="11" fill="url(#goldGrad)" />
+                <circle cx="795" cy="750" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="910" cy="750" r="11" fill="url(#goldGrad)" />
+                <circle cx="910" cy="750" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="1025" cy="750" r="11" fill="url(#goldGrad)" />
+                <circle cx="1025" cy="750" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="277.5" cy="830" r="11" fill="url(#goldGrad)" />
+                <circle cx="277.5" cy="830" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="392.5" cy="830" r="11" fill="url(#goldGrad)" />
+                <circle cx="392.5" cy="830" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="507.5" cy="830" r="11" fill="url(#goldGrad)" />
+                <circle cx="507.5" cy="830" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="622.5" cy="830" r="11" fill="url(#goldGrad)" />
+                <circle cx="622.5" cy="830" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="737.5" cy="830" r="11" fill="url(#goldGrad)" />
+                <circle cx="737.5" cy="830" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="852.5" cy="830" r="11" fill="url(#goldGrad)" />
+                <circle cx="852.5" cy="830" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="967.5" cy="830" r="11" fill="url(#goldGrad)" />
+                <circle cx="967.5" cy="830" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="1082.5" cy="830" r="11" fill="url(#goldGrad)" />
+                <circle cx="1082.5" cy="830" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="220" cy="910" r="11" fill="url(#goldGrad)" />
+                <circle cx="220" cy="910" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="335" cy="910" r="11" fill="url(#goldGrad)" />
+                <circle cx="335" cy="910" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="450" cy="910" r="11" fill="url(#goldGrad)" />
+                <circle cx="450" cy="910" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="565" cy="910" r="11" fill="url(#goldGrad)" />
+                <circle cx="565" cy="910" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="680" cy="910" r="11" fill="url(#goldGrad)" />
+                <circle cx="680" cy="910" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="795" cy="910" r="11" fill="url(#goldGrad)" />
+                <circle cx="795" cy="910" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="910" cy="910" r="11" fill="url(#goldGrad)" />
+                <circle cx="910" cy="910" r="6.5" fill="url(#diamondGrad)" />
+              
+                <circle cx="1025" cy="910" r="11" fill="url(#goldGrad)" />
+                <circle cx="1025" cy="910" r="6.5" fill="url(#diamondGrad)" />
+              
+      </g>
+
+      <!-- Flap Bottom Edge Diamonds -->
+      
+          <circle cx="200" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="200" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="198" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="223.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="223.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="221.5" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="247" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="247" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="245" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="270.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="270.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="268.5" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="294" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="294" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="292" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="317.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="317.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="315.5" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="341" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="341" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="339" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="364.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="364.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="362.5" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="388" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="388" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="386" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="411.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="411.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="409.5" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="435" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="435" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="433" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="458.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="458.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="456.5" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="482" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="482" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="480" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="505.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="505.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="503.5" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="529" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="529" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="527" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="552.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="552.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="550.5" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="576" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="576" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="574" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="599.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="599.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="597.5" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="623" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="623" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="621" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="646.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="646.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="644.5" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="670" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="670" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="668" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="693.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="693.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="691.5" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="717" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="717" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="715" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="740.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="740.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="738.5" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="764" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="764" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="762" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="787.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="787.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="785.5" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="811" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="811" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="809" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="834.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="834.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="832.5" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="858" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="858" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="856" cy="933" r="2" fill="#ffffff" />
+        
+          <circle cx="881.5" cy="935" r="9.5" fill="url(#goldGrad)" />
+          <circle cx="881.5" cy="935" r="7" fill="url(#diamondGrad)" />
+          <circle cx="879.5" cy="933" r="2" fill="#ffffff" />
+        
+    </g>
+
+    <!-- 4. CENTER BROOCH CLASP (Royal Jewels) -->
+    <g id="centerBrooch" transform="translate(540, 930)">
+      <!-- Gold Filigree Backplate -->
+      <ellipse cx="0" cy="0" rx="90" ry="120" fill="url(#goldGrad)" stroke="#583506" stroke-width="3" />
+      <path d="M 0 125 L 15 155 L 0 170 L -15 155 Z" fill="url(#goldGrad)" />
+      <circle cx="0" cy="160" r="10" fill="url(#diamondGrad)" />
+
+      <!-- Halo Diamonds around Brooch -->
+      
+          <circle cx="78" cy="0" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="78" cy="0" r="8" fill="url(#diamondGrad)" />
+          <circle cx="76" cy="-2" r="2.5" fill="#ffffff" />
+        
+          <circle cx="72.06260353588037" cy="40.181760398334426" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="72.06260353588037" cy="40.181760398334426" r="8" fill="url(#diamondGrad)" />
+          <circle cx="70.06260353588037" cy="38.181760398334426" r="2.5" fill="#ffffff" />
+        
+          <circle cx="55.15432893255071" cy="74.24621202458748" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="55.15432893255071" cy="74.24621202458748" r="8" fill="url(#diamondGrad)" />
+          <circle cx="53.15432893255071" cy="72.24621202458748" r="2.5" fill="#ffffff" />
+        
+          <circle cx="29.849307724477008" cy="97.0073509136851" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="29.849307724477008" cy="97.0073509136851" r="8" fill="url(#diamondGrad)" />
+          <circle cx="27.849307724477008" cy="95.0073509136851" r="2.5" fill="#ffffff" />
+        
+          <circle cx="4.776122516674678e-15" cy="105" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="4.776122516674678e-15" cy="105" r="8" fill="url(#diamondGrad)" />
+          <circle cx="-1.9999999999999951" cy="103" r="2.5" fill="#ffffff" />
+        
+          <circle cx="-29.849307724476997" cy="97.0073509136851" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="-29.849307724476997" cy="97.0073509136851" r="8" fill="url(#diamondGrad)" />
+          <circle cx="-31.849307724476997" cy="95.0073509136851" r="2.5" fill="#ffffff" />
+        
+          <circle cx="-55.154328932550705" cy="74.24621202458749" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="-55.154328932550705" cy="74.24621202458749" r="8" fill="url(#diamondGrad)" />
+          <circle cx="-57.154328932550705" cy="72.24621202458749" r="2.5" fill="#ffffff" />
+        
+          <circle cx="-72.06260353588037" cy="40.18176039833444" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="-72.06260353588037" cy="40.18176039833444" r="8" fill="url(#diamondGrad)" />
+          <circle cx="-74.06260353588037" cy="38.18176039833444" r="2.5" fill="#ffffff" />
+        
+          <circle cx="-78" cy="1.2858791391047208e-14" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="-78" cy="1.2858791391047208e-14" r="8" fill="url(#diamondGrad)" />
+          <circle cx="-80" cy="-1.9999999999999871" r="2.5" fill="#ffffff" />
+        
+          <circle cx="-72.06260353588037" cy="-40.18176039833442" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="-72.06260353588037" cy="-40.18176039833442" r="8" fill="url(#diamondGrad)" />
+          <circle cx="-74.06260353588037" cy="-42.18176039833442" r="2.5" fill="#ffffff" />
+        
+          <circle cx="-55.15432893255072" cy="-74.24621202458748" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="-55.15432893255072" cy="-74.24621202458748" r="8" fill="url(#diamondGrad)" />
+          <circle cx="-57.15432893255072" cy="-76.24621202458748" r="2.5" fill="#ffffff" />
+        
+          <circle cx="-29.849307724477047" cy="-97.00735091368509" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="-29.849307724477047" cy="-97.00735091368509" r="8" fill="url(#diamondGrad)" />
+          <circle cx="-31.849307724477047" cy="-99.00735091368509" r="2.5" fill="#ffffff" />
+        
+          <circle cx="-1.432836755002403e-14" cy="-105" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="-1.432836755002403e-14" cy="-105" r="8" fill="url(#diamondGrad)" />
+          <circle cx="-2.000000000000014" cy="-107" r="2.5" fill="#ffffff" />
+        
+          <circle cx="29.849307724477022" cy="-97.0073509136851" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="29.849307724477022" cy="-97.0073509136851" r="8" fill="url(#diamondGrad)" />
+          <circle cx="27.849307724477022" cy="-99.0073509136851" r="2.5" fill="#ffffff" />
+        
+          <circle cx="55.15432893255069" cy="-74.2462120245875" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="55.15432893255069" cy="-74.2462120245875" r="8" fill="url(#diamondGrad)" />
+          <circle cx="53.15432893255069" cy="-76.2462120245875" r="2.5" fill="#ffffff" />
+        
+          <circle cx="72.06260353588034" cy="-40.18176039833449" r="10.5" fill="url(#goldGrad)" />
+          <circle cx="72.06260353588034" cy="-40.18176039833449" r="8" fill="url(#diamondGrad)" />
+          <circle cx="70.06260353588034" cy="-42.18176039833449" r="2.5" fill="#ffffff" />
+        
+
+      <!-- Center Royal Oval Sapphire -->
+      <ellipse cx="0" cy="0" rx="46" ry="68" fill="url(#centerSapphireGrad)" stroke="url(#goldGrad)" stroke-width="6" />
+      <!-- Facets inside center sapphire -->
+      <ellipse cx="0" cy="0" rx="28" ry="42" fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="3" />
+      <!-- Specular star glint -->
+      <path d="M -10 -15 L 0 -35 L 10 -15 L 0 5 Z" fill="#ffffff" opacity="0.75" />
+
+      <!-- Left Ruby Teardrop -->
+      <g transform="translate(-85, 0)">
+        <ellipse cx="0" cy="0" rx="34" ry="24" fill="url(#rubyGrad)" stroke="url(#goldGrad)" stroke-width="6" />
+        <ellipse cx="-4" cy="-4" rx="14" ry="9" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2.5" />
+      </g>
+
+      <!-- Right Emerald Teardrop -->
+      <g transform="translate(85, 0)">
+        <ellipse cx="0" cy="0" rx="34" ry="24" fill="url(#emeraldGrad)" stroke="url(#goldGrad)" stroke-width="6" />
+        <ellipse cx="-4" cy="-4" rx="14" ry="9" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2.5" />
+      </g>
+    </g>
+
+    <!-- Starburst Sparkle Glints -->
+    <!-- Helper cross glint function -->
+    <g transform="translate(340, 680)" fill="#ffffff" filter="url(#glow)">
+      <polygon points="0,-25 5,-5 25,0 5,5 0,25 -5,5 -25,0 -5,-5" />
+    </g>
+    <g transform="translate(740, 680)" fill="#ffffff" filter="url(#glow)">
+      <polygon points="0,-25 5,-5 25,0 5,5 0,25 -5,5 -25,0 -5,-5" />
+    </g>
+    <g transform="translate(140, 1340)" fill="#ffffff" filter="url(#glow)">
+      <polygon points="0,-22 4,-4 22,0 4,4 0,22 -4,4 -22,0 -4,-4" />
+    </g>
+    <g transform="translate(940, 1340)" fill="#ffffff" filter="url(#glow)">
+      <polygon points="0,-22 4,-4 22,0 4,4 0,22 -4,4 -22,0 -4,-4" />
+    </g>
+    <g transform="translate(540, 840)" fill="#ffffff" filter="url(#glow)">
+      <polygon points="0,-30 6,-6 30,0 6,6 0,30 -6,6 -30,0 -6,-6" />
+    </g>
+  </g>
+</svg>
